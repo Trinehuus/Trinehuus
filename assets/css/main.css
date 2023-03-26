@@ -2252,7 +2252,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 4px;
-				border: solid 1px #c9c9c9;
+				border: solid 1px #5a5555;
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2705,28 +2705,28 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
-				background-color: #c0abb2;
+			.tiles article.style1 > .image::after {
+				background-color: #bbb0b4;
 			}
 
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+			.tiles article.style2 > .image::after {
+				background-color: #bbb0b4;
 			}
 
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+			.tiles article.style3 > .image::after {
+				background-color: #bbb0b4;
 			}
 
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+			.tiles article.style4 > .image::after {
+				background-color: #bbb0b4;
 			}
 
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+			.tiles article.style5 > .image::after {
+				background-color: #bbb0b4;
 			}
 
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+			.tiles article.style6 > .image::after {
+				background-color: #bbb0b4;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2737,7 +2737,7 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
+					background-color: #bbb0b4;
 					opacity: 0.35;
 				}
 
